@@ -1,0 +1,14 @@
+.container-btn{
+    background-color: #AD9BE9;
+    height: 100px;
+    width: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.wrapper-form {
+    margin-bottom: 20px;
+}

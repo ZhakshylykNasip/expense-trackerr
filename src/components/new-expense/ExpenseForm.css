@@ -1,0 +1,25 @@
+.formContainer {
+  background-color: #ad9be9;
+  border-radius: 12px;
+  padding: 30px 40px;
+  margin-top: 50px;
+  width: 810px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 14px;
+}
