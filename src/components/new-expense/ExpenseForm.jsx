@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./ExpenseForm.css";
 import Button from "../UI/button/Button";
 import { Input } from "../UI/input/Input";
@@ -7,6 +7,7 @@ export const ExpenseForm = ({ handleClick, onAddExpense }) => {
   const [title, setTitle] = useState("");
   const [amount, setAmount] = useState("");
   const [date, setDate] = useState("");
+ 
 
   const handleNewExpense = () => {
     if (!title || !amount || !date) {
@@ -25,6 +26,8 @@ export const ExpenseForm = ({ handleClick, onAddExpense }) => {
     setAmount("");
     setDate("");
   };
+
+ 
 
   return (
     <form

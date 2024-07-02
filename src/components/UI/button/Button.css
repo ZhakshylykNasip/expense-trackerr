@@ -15,11 +15,6 @@
   background-color: #861ecbbc;
 }
 
-.button:disabled {
-  background-color: gray;
-  cursor: not-allowed;
-}
-
 .button:active {
   background: #600a87;
 }
@@ -27,4 +22,9 @@
 .buttonContainer {
   display: flex;
   justify-content: flex-end;
+}
+
+.button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
 }
